@@ -2,13 +2,15 @@ import 'package:contactapp/Utils/AppColors.dart';
 import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
-  const CustomButton({super.key});
+  Function enterUser;
+
+  CustomButton({required this.enterUser});
 
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {
-        Navigator.of(context).pop();
+        enterUser();
       },
       child: Text(
         'Enter User',

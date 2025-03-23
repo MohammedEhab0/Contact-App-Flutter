@@ -1,12 +1,9 @@
-import 'package:flutter/cupertino.dart';
+
 
 class AppAssets {
-  static Image Title = Image.asset('assets/images/Route.png');
-
-  static Image AddImage(BuildContext context) {
-    return Image.asset(
-      'assets/images/image-not-preview-SKnaSYA7Kx.png',
-      width: MediaQuery.of(context).size.width * 0.35,
-    );
-  }
+  static String Messi = 'assets/images/messi.png';
+  static String El_balf = 'assets/images/el_balf.png';
+  static String Title = 'assets/images/Route.png';
+  static String call = 'assets/images/Union.png';
+  static String email = 'assets/images/Exclude.png';
 }
